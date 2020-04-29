@@ -1,0 +1,30 @@
+{
+  "name": "vivid",
+  "version": "1.0.0",
+  "description": "stack overflow tags的数据可视化",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/crowller.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igsnow/vivid.git"
+  },
+  "keywords": [],
+  "author": "igsnow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igsnow/vivid/issues"
+  },
+  "homepage": "https://github.com/igsnow/vivid#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "superagent": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.18",
+    "@types/superagent": "^4.1.7",
+    "ts-node": "^8.9.1",
+    "typescript": "^3.8.3"
+  }
+}

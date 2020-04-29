@@ -4,7 +4,7 @@
   "description": "stack overflow tags的数据可视化",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node ./src/crowller.ts"
+    "dev": "ts-node src/view.ts"
   },
   "repository": {
     "type": "git",
